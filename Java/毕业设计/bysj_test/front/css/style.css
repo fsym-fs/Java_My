@@ -1425,6 +1425,12 @@ padding: 2em;
 .register {
 	padding: 4em 0;
 }
+.myset{
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 27px;
+	cursor: pointer;
+}
 /*--privacy--*/
 .privacy-top h3{
 	font-size: 3em;

@@ -337,6 +337,10 @@ img {
 .img-circle {
   border-radius: 50%;
 }
+.header_pic{
+  width: 100px;
+  height: 100px;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
