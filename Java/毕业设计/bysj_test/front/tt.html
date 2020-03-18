@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic UI </title>
+    <!-- 使用CDN导入js和css 文件-->
+    <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.js"></script>
+    <script>
+        $(function () {
+            $(".ui.dropdown").dropdown();
+        })
+    </script>
+</head>
+<body>
+    <div class="ui top attached tabular menu">
+        <a class="active item" data-tab="first">First</a>
+        <a class="item" data-tab="second">Second</a>
+        <a class="item" data-tab="third">Third</a>
+      </div>
+      <div class="ui bottom attached active tab segment" data-tab="first">First </div>
+      <div class="ui bottom attached tab segment" data-tab="second">Second </div>
+      <div class="ui bottom attached tab segment" data-tab="third">Third </div>
+      
+      
+      <script>
+      $('.menu .item').tab();
+      </script>
+</body>
+</html>
